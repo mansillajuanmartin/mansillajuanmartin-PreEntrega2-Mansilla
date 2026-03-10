@@ -16,29 +16,137 @@
     <!--Fonts-->
 
     <!--Icons-->
-
-    <!--CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!--Css-->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <!--Estructura de Pagina Web:
     -Home: logo+nav+titulo+descripcion
-    -Seccion 1: Servicios + Pages
-    -Seccion 2: Nosotros 
+    -Seccion 1: NosotrosS
+    -Seccion 2: Servicios + Pages 
     -Seccion 3: clientes
     -Seccion 4: Oportunidades Laborales
     -Seccion 5: Contacto
     -Footer: logo+descripcion+redes sociales
     -->
+    <!--Hader con logo+nav+titulo+descripcion-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/images/navbar/Logo1.png"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Estudio Pierella
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <header><nav></nav></header>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Impuestos</a></li>
+                  <li><a class="dropdown-item" href="#">Contabilidad</a></li>
+                  <li><a class="dropdown-item" href="#">Gestiones</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Auditoría Operativa</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Finanzas</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Procedimientos de Crisis</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Recursos Humanos</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Precios de Transferencia</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">LLC en Estados Unidos</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Sociedades en Uruguay</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trabaja con Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--Main-->
     <main>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section>Nosotros</section>
+      <section>Servicios</section>
+      <section>Clientes</section>
+      <section>Oportunidades Laborales</section>
+      <section>Contacto</section>
     </main>
     <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
