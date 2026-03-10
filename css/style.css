@@ -8,6 +8,9 @@
 
 .navbar-custom {
   background-color: #03312e;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .navbar-brand img {
@@ -51,6 +54,70 @@
   background-color: #f4f4f4;
 }
 
+/*Footer*/
+.pie-pagina {
+  background-color: #ffffff;
+  color: #03312e;
+  width: 100%;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 200px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+  width: 200px;
+}
+
+.pie-pagina .grupo-1 .box h3 {
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  line-height: 45px;
+  color: #ffffff;
+  margin-right: 10px;
+  background-color: #03312e;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: #037171;
+}
+
+.pie-pagina .grupo-2 {
+  padding: 30px 10px 10px 10px;
+  text-align: center;
+  color: #03312e;
+}
+
+.pie-pagina .grupo-2 small {
+  font-size: 1rem;
+}
+
+.pie-pagina .grupo-2 i {
+  color: #037171;
+}
+
 /*media queries*/
 
 /*navbar*/
@@ -65,3 +132,23 @@
     margin-right: 10px;
   }
 }
+
+/*footer*/
+@media screen and (max-width:768px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+} 
