@@ -4,6 +4,29 @@
   margin: 0px;
 }
 
+/*header*/
+header {
+  color: #03312e;
+  background-image: url(/images/home/home4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+header p {
+  font-family: 'Crimson Text', serif;
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
 /*navbar*/
 
 .navbar-custom {
