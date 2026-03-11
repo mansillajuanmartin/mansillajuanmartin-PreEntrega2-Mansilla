@@ -12,7 +12,7 @@
       content="Somos el Estudio Contable de los que buscan más que un Estudio Contable."
     />
     <!--Favicon-->
-    <link rel="icon" type="image/jpeg" href="/assets/Favicon/favicon.jpeg" />
+    <link rel="icon" type="image/jpeg" href="/assets/favicon/favicon.jpeg" />
     <!--Fonts-->
 
     <!--Icons-->
@@ -129,12 +129,15 @@
           </div>
         </div>
       </nav>
-      <section>
-        <h1>BIENVENIDOS A ESTUDIO PIERELLA</h1>
+      <section class="container">
+        <div class="home-content">
+
+            <h1>BIENVENIDOS A ESTUDIO PIERELLA</h1>
         <p>
           Somos un estudio contable con más de 30 años de experiencia para hacer de su empresa un negocio eficiente.
-        </p>
+        </p></div>
       </section>
+    
     </header>
 
     <!--Main-->
@@ -151,25 +154,22 @@
       <section>Contacto</section>
     </main>
 
-    <!--Footer - Se aplico Flex Box y Grid-->
-    <footer class="pie-pagina">
-      <div class="grupo-1">
-        <div class="box">
-          <figure>
-            <a href="#">
+    <!--Footer - Se aplico Flex Box-->
+    <footer>
+        <div class="footer-section footer-logo">
               <img src="./images/footer/logo2.jpeg" alt="logo-footer" />
-            </a>
-          </figure>
         </div>
-        <div class="box">
+
+        <div class="footer-section footer-text">
           <h3>
             Somos el Estudio Contable de los que buscan más que un Estudio
             Contable
           </h3>
         </div>
-        <div class="box">
-          <h3>Seguinos:</h3>
-          <div class="red-social">
+
+        <div class="footer-section">
+          <h4>Seguinos:</h4>
+          <div class="social-icons">
             <a
               href="https://www.instagram.com/jmartinmansilla/?hl=es-la"
               class="fa fa-instagram"
@@ -191,13 +191,11 @@
             ></a>
           </div>
         </div>
-      </div>
-      <div class="grupo-2">
         <small
           >&copy; 2026 - <i>Estudio Pierella</i> - Todos los Derechos
           Reservados</small
         >
-      </div>
+
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

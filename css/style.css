@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*header*/
+header {
+  color: #03312e;
+  background-image: url(/images/home/home4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+header p {
+  font-family: 'Crimson Text', serif;
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+/*navbar*/
+
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #03312e;
+  z-index: 1000;
+}
+
+.navbar-brand img {
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.navbar-brand:hover {
+  color: #5a9b71;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #037171;
+}
+
+.dropdown-item:hover {
+  color: #5a9b71;
+}
+
+.dropdown-item:active {
+  color: #ffffff;
+  background-color: #03312e;
+}
+
+.navbar-toggler {
+  background-color: #f4f4f4;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+/*home*/
+.home-content {
+    max-width: 500px;            /* Evita que el texto se extienda demasiado */
+    color: #002b24;              /* El color verde oscuro de tu marca */
+}
+
+.home-content h1 {
+    font-size: 3.5rem;           /* Tamaño grande para el título */
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.home-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/*Clientes*/
+
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;           
+    padding: 20px 5%;              
+    background-color: #ffffff;      
+    flex-wrap: wrap;               
+}
+
+.footer-section {
+    flex: 1;                       
+    display: flex;
+    flex-direction: column;
+    align-items: center;         
+    text-align: center;            
+    min-width: 250px;            
+}
+
+.footer-logo img {
+    max-width: 150px;              
+    height: auto;
+}
+
+.footer-text h3 {
+    font-size: 1.1rem;
+    color: #03312e;                
+    margin: 0;
+    font-weight: 500;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;                     
+    justify-content: center;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #03312e;     
+    border-radius: 8px;            
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+  color:#5a9b71;
+}
+
+small {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    color: #03312e;
+}
+
+
+/*media queries*/
+
+/*home*/
+
+@media (max-width: 768px) {
+    .header {
+        background-position: 70% center; /* Ajusta la foto en móviles */
+        padding-left: 5%;
+    }
+    .home-content h1{
+        font-size: 2.5rem;
+    }
+}
+
+/*navbar*/
+@media (max-width: 992px) {
+  .navbar-brand {
+    font-size: 22px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+
+
+
