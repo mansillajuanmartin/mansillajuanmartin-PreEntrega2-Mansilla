@@ -361,6 +361,10 @@ header {
   padding: 60px 20px;
   text-align: center;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
 }
 
 .container-2 {
@@ -380,6 +384,7 @@ header {
   width: 100px;
   height: 4px;
   background-color: #5a9b71;
+  margin: 0 auto 35px auto;
 }
 
 .texto-informativo {
