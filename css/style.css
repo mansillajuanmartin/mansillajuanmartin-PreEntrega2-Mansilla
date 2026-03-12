@@ -200,34 +200,34 @@ header {
 }
 
 .s1 {
-  background-image: url(./images/servicios/impuestos.jpg);
+  background-image: url(../images/servicios/impuestos.jpg);
 }
 .s2 {
-  background-image: url(./images/servicios/contabilidad.jpg);
+  background-image: url(../images/servicios/contabilidad.jpg);
 }
 .s3 {
-  background-image: url(./images/servicios/gestiones.jpg);
+  background-image: url(../images/servicios/gestiones.jpg);
 }
 .s4 {
-  background-image: url(./images/servicios/auditoria.jpg);
+  background-image: url(../images/servicios/auditoria.jpg);
 }
 .s5 {
-  background-image: url(./images/servicios/finanzas.jpg);
+  background-image: url(../images/servicios/finanzas.jpg);
 }
 .s6 {
-  background-image: url(./images/servicios/crisis.jpg);
+  background-image: url(../images/servicios/crisis.jpg);
 }
 .s7 {
-  background-image: url(./images/servicios/humanos.jpg);
+  background-image: url(../images/servicios/humanos.jpg);
 }
 .s8 {
-  background-image: url(./images/servicios/precio.jpg);
+  background-image: url(../images/servicios/precio.jpg);
 }
 .s9 {
-  background-image: url(./images/servicios/eeuu.jpg);
+  background-image: url(../images/servicios/eeuu.jpg);
 }
 .s10 {
-  background-image: url(./images/servicios/uruguay.jpg);
+  background-image: url(../images/servicios/uruguay.jpg);
 }
 
 .overlay {
