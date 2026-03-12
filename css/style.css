@@ -379,7 +379,7 @@ header {
 .linea-verde-2 {
   width: 100px;
   height: 4px;
-  background-color: #5a9b71; 
+  background-color: #5a9b71;
 }
 
 .texto-informativo {
@@ -391,7 +391,7 @@ header {
 }
 
 .email-link {
-  color: #5a9b71; 
+  color: #5a9b71;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -554,14 +554,14 @@ textarea {
 }
 
 .header-1::before {
-  content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); 
-    z-index: 1; 
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
 }
 
 .home-content-2 {
@@ -583,69 +583,70 @@ textarea {
 
 /*Main - Servicios*/
 /* Altura uniforme para todos los bloques */
-.service-image, .service-text {
-    min-height: 380px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.service-image,
+.service-text {
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Bloques con Imagen */
 .service-image {
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    color: white;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay h2 {
-    font-weight: 800;
-    font-size: 2.2rem;
-    letter-spacing: 2px;
+  font-weight: 800;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
 }
 
 .line {
-    width: 100px;
-    height: 2px;
-    background-color: #5a9b71;
-    margin-top: 10px;
+  width: 100px;
+  height: 2px;
+  background-color: #5a9b71;
+  margin-top: 10px;
 }
 
 /* Bloques de Texto */
 .service-text {
-    background-color: #eeeeee;
-    padding: 40px;
+  background-color: #eeeeee;
+  padding: 40px;
 }
 
 .list-plus {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .list-plus li {
-    padding-left: 25px;
-    margin-bottom: 12px;
-    position: relative;
-    font-size: 1.05rem;
-    color: #03312e;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  position: relative;
+  font-size: 1.05rem;
+  color: #03312e;
 }
 
 .list-plus li::before {
-    content: "+";
-    position: absolute;
-    left: 0;
-    font-weight: bold;
-    color: #5a9b71;
+  content: "+";
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+  color: #5a9b71;
 }
 
 /*Footer*/
@@ -733,7 +734,7 @@ small i {
 }
 
 /*navbar*/
-@media (max-width: 990px) {
+@media (max-width: 768px) {
   .navbar-brand {
     font-size: 22px;
   }
@@ -794,7 +795,6 @@ small i {
 
 /*Seccion Opotunidad laboral*/
 @media (max-width: 768px) {
-
   .texto-informativo {
     font-size: 1rem;
   }
@@ -817,18 +817,23 @@ small i {
 
 /*Pages servicios*/
 @media (max-width: 990px) {
-    .home-content-2 h2 {
-        font-size: 2rem; 
-        letter-spacing: 1px;
-        white-space: normal; 
-    }
+  .home-content-2 h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    white-space: normal;
+  }
 }
 
 @media (max-width: 990px) {
-    .service-image, .service-text {
-        min-height: 300px;
-    }
-    
-    .order-md-1 { order: 2 !important; }
-    .order-md-2 { order: 1 !important; }
+  .service-image,
+  .service-text {
+    min-height: 300px;
+  }
+
+  .order-md-1 {
+    order: 2 !important;
+  }
+  .order-md-2 {
+    order: 1 !important;
+  }
 }
