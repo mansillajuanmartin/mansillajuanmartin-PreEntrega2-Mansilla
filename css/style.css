@@ -177,92 +177,109 @@ header {
   color: #03312e;
 }
 
-
 /*Seccion Servicios*/
 
 .grid-main-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 40vh);
-    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 40vh);
+  width: 100%;
 }
 
 .service-card {
-    position: relative;
-    overflow: hidden; 
-    background-color: #03312e; 
-    background-size: cover;
-    background-position: center;
-    transition: transform 0.5s ease;
+  position: relative;
+  overflow: hidden;
+  background-color: #03312e;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
 }
 
-.s1 { background-image: url(/images/servicios/impuestos.jpg); }
-.s2 { background-image: url(/images/servicios/contabilidad.jpg); }
-.s3 { background-image: url(/images/servicios/gestiones.jpg); }
-.s4 { background-image: url(/images/servicios/auditoria.jpg); }
-.s5 { background-image: url(/images/servicios/finanzas.jpg); }
-.s6 { background-image: url(/images/servicios/crisis.jpg); }
-.s7 { background-image: url(/images/servicios/humanos.jpg); }
-.s8 { background-image: url(/images/servicios/precio.jpg); }
-.s9 { background-image: url(/images/servicios/eeuu.jpg); }
-.s10 { background-image: url(/images/servicios/uruguay.jpg); }
-
+.s1 {
+  background-image: url(/images/servicios/impuestos.jpg);
+}
+.s2 {
+  background-image: url(/images/servicios/contabilidad.jpg);
+}
+.s3 {
+  background-image: url(/images/servicios/gestiones.jpg);
+}
+.s4 {
+  background-image: url(/images/servicios/auditoria.jpg);
+}
+.s5 {
+  background-image: url(/images/servicios/finanzas.jpg);
+}
+.s6 {
+  background-image: url(/images/servicios/crisis.jpg);
+}
+.s7 {
+  background-image: url(/images/servicios/humanos.jpg);
+}
+.s8 {
+  background-image: url(/images/servicios/precio.jpg);
+}
+.s9 {
+  background-image: url(/images/servicios/eeuu.jpg);
+}
+.s10 {
+  background-image: url(/images/servicios/uruguay.jpg);
+}
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    transition: background-color 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  transition: background-color 0.3s ease;
 }
 
 .service-card:hover .overlay {
-    background-color: rgba(0, 0, 0, 0.3); 
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .overlay h2 {
-    font-size: 2.2rem;
-    margin: 0;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+  font-size: 2.2rem;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .line {
-    width: 100px;
-    height: 4px;
-    background-color: #5a9b71;
-    margin: 15px 0;
+  width: 100px;
+  height: 4px;
+  background-color: #5a9b71;
+  margin: 15px 0;
 }
 
 .btn-ver {
-    border: 1px solid #ffffff;
-    padding: 10px 20px;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 0.8rem;
-    letter-spacing: 1px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    transition: all 0.3s ease;
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 .btn-ver:hover {
-    background-color: #5a9b71;
-    color: #03312e;
+  background-color: #5a9b71;
+  color: #03312e;
 }
-
 
 /*Seccion Clientes*/
 .clientes-section {
-  padding: 60px 0;
+  padding: 60px 20px;
   text-align: center;
   overflow: hidden;
 }
@@ -338,52 +355,184 @@ header {
 /*Seccion oportunidad laboral*/
 
 .oportunidades-section {
-    padding: 60px 20px;
-    text-align: center;
-    width: 100%;
+  padding: 60px 20px;
+  text-align: center;
+  width: 100%;
 }
 
 .container-2 {
-    max-width: 900px;
-    margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .titulo {
-    color: #03312e; 
-    font-size: 2.2rem;
-    font-weight: 700;
-    margin: 0 0 5px 0;
-    letter-spacing: 1px;
+  color: #03312e;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+  letter-spacing: 1px;
 }
 
 .linea-verde-2 {
-    width: 100px;
-    height: 4px;
-    background-color: #5a9b71; /* Azul corporativo */
-    margin: 0 auto 35px auto;
+  width: 100px;
+  height: 4px;
+  background-color: #5a9b71; /* Azul corporativo */
+  margin: 0 auto 35px auto;
 }
 
 .texto-informativo {
-    color: #03312e;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin: 0;
-    font-weight: 500;
+  color: #03312e;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 500;
 }
 
 .email-link {
-    color: #5a9b71; /* Azul claro resaltado */
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
+  color: #5a9b71; /* Azul claro resaltado */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 .email-link:hover {
-    color: #03312e;
-    text-decoration: underline;
+  color: #03312e;
+  text-decoration: underline;
 }
 
+/*Seccion Contacto*/
 
+.contacto-section {
+  background-color: #5a9b71;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-3 {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  gap: 80px;
+}
+
+/*Seccion contacto - formulario*/
+.col-form {
+  flex: 1.2;
+}
+
+.titulo-1 {
+  font-size: 2.2rem;
+  color: #03312e;
+  margin: 0 0 5px 0;
+  font-weight: 700;
+  letter-spacing: 1;
+}
+
+.linea-blanca {
+  width: 100px;
+  height: 4px;
+  background-color: #eeeeee;
+  margin-bottom: 40px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: #eeeeee;
+  font-size: 1rem;
+  color: #888;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.row-inputs {
+  display: flex;
+  gap: 15px;
+}
+
+.row-inputs input {
+  flex: 1;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-enviar {
+  background-color: #03312e;
+  color: #eeeeee;
+  border: none;
+  padding: 12px 35px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-enviar:hover {
+  background-color: #eeeeee;
+  color: #03312e;
+}
+
+/*Seccion contacto - Info*/
+.col-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #eeeeee;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon-circle i {
+  color: #03312e;
+  font-size: 1.2rem;
+}
+
+.info-text {
+  margin: 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.info-text.bold {
+  font-weight: bold;
+}
+
+.info-text.light-green {
+  font-weight: bold;
+}
+
+.addresses p {
+  margin: 5px 0;
+  font-weight: bold;
+}
 
 /*Footer*/
 footer {
@@ -503,14 +652,14 @@ small i {
 /*Seccion Servicios*/
 
 @media (max-width: 768px) {
-    .grid-main-container {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(10, 30vh); /* 10 filas en vertical */
-    }
-    
-    .overlay h2 {
-        font-size: 1.5rem;
-    }
+  .grid-main-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 30vh); /* 10 filas en vertical */
+  }
+
+  .overlay h2 {
+    font-size: 1.5rem;
+  }
 }
 
 /*Seccion Clientes*/
@@ -530,15 +679,26 @@ small i {
 
 /*Seccion Opotunidad laboral*/
 @media (max-width: 768px) {
-    .titulo {
-        font-size: 1.6rem;
-    }
-    
-    .texto-informativo {
-        font-size: 1rem;
-    }
-    
-    br {
-        display: none;
-    }
+  .titulo {
+    font-size: 1.6rem;
+  }
+
+  .texto-informativo {
+    font-size: 1rem;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+/*Seccion contacto*/
+@media (max-width: 900px) {
+  .container-3 {
+    flex-direction: column;
+  }
+
+  .col-info {
+    padding-top: 0;
+  }
 }
