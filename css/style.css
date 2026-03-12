@@ -7,7 +7,7 @@
 /*header*/
 header {
   color: #03312e;
-  background-image: url(./images/home/home4.jpg);
+  background-image: url(/images/home/home4.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -82,12 +82,12 @@ header p {
 
 /*home*/
 .home-content {
-  max-width: 500px; /* Evita que el texto se extienda demasiado */
-  color: #002b24; /* El color verde oscuro de tu marca */
+  max-width: 500px;
+  color: #002b24;
 }
 
 .home-content h1 {
-  font-size: 3.5rem; /* Tamaño grande para el título */
+  font-size: 3.5rem;
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 20px;
@@ -102,93 +102,167 @@ header p {
 /*Seccion Nosotros*/
 
 .nosotros-section {
-    padding: 80px 20px;
-    display: flex;
-    justify-content: center;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .container-1 {
-    max-width: 1100px;
-    display: flex;
-    align-items: flex-start;
-    gap: 60px; 
+  max-width: 1100px;
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
 }
 
 /* --- Seccion Nosotros - columna derecha ---*/
 .perfil-col {
-    flex: 1;
-    text-align: center;
-    max-width: 350px;
+  flex: 1;
+  text-align: center;
+  max-width: 350px;
 }
 
 .foto-container img {
-    width: 280px;
-    height: 280px;
-    border-radius: 50%; 
-    object-fit: cover;
-    margin-bottom: 20px;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 
 .separador-corto {
-    width: 250px;
-    height: 1px;
-    background-color: #5a9b71; 
-    margin: 10px auto;
+  width: 250px;
+  height: 1px;
+  background-color: #5a9b71;
+  margin: 10px auto;
 }
 
 .cargo-etiqueta {
-    color: #5a9b71;
-    font-size: 0.9rem;
-    letter-spacing: 2px;
-    margin-bottom: 5px;
-    font-weight: 400;
+  color: #5a9b71;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  font-weight: 400;
 }
 
 .nombre {
-    color: #03312e;
-    font-size: 1.8rem;
-    margin: 5px 0;
-    font-weight: 700;
+  color: #03312e;
+  font-size: 1.8rem;
+  margin: 5px 0;
+  font-weight: 700;
 }
 
 .profesion {
-    color: #5a9b71;
-    font-style: italic;
-    font-size: 1.2rem;
-    margin-top: 0;
+  color: #5a9b71;
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-top: 0;
 }
 
-/* --- Seccion nosoros - Columna Derecha ---*/
+/* --- Seccion nosotros - Columna Derecha ---*/
 .info-col {
-    flex: 2;
+  flex: 2;
 }
 
 .titulo-wrapper {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .titulo-seccion {
-    color: #03312e;
-    font-size: 2.2rem;
-    margin-bottom: 5px;
-    font-weight: 700;
-    letter-spacing: 1px;
+  color: #03312e;
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
-.linea-azul {
-    width: 80px;
-    height: 4px;
-    background-color: #5a9b71;
+.linea-verde {
+  width: 100px;
+  height: 4px;
+  background-color: #5a9b71;
 }
 
 .descripcion {
-    line-height: 1.6;
-    font-size: 1.05rem;
-    margin-bottom: 20px;
-    text-align: justify;
-    color: #03312e;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #03312e;
 }
 
+/*Seccion Clientes*/
+.clientes-section {
+  padding: 60px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.titulo-contenedor {
+  margin-bottom: 50px;
+}
+
+.titulo-contenedor h2 {
+  color: #03312e;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.linea-verde-1 {
+  width: 100px;
+  height: 4px;
+  background-color: #5a9b71;
+  margin: 0 auto;
+}
+
+/*Seccion clientes - Carrusel*/
+
+.slider {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(250px * 12);
+  animation: scroll 40s linear infinite;
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+.slide {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.slide img {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(20%);
+  transition: filter 0.3s;
+}
+
+.slide img:hover {
+  filter: grayscale(0%);
+}
+
+/*Seccion clientes - Animacion*/
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 6));
+  }
+}
 
 /*Footer*/
 footer {
@@ -255,13 +329,17 @@ small {
   color: #03312e;
 }
 
+small i {
+  color: #5a9b71;
+}
+
 /*media queries*/
 
 /*home*/
 
 @media (max-width: 800px) {
   .header {
-    background-position: 70% center; /* Ajusta la foto en móviles */
+    background-position: 70% center;
     padding-left: 5%;
   }
   .home-content h1 {
@@ -284,19 +362,34 @@ small {
 
 /*Seccion Nosotros*/
 @media (max-width: 800px) {
-    .container-1 {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .info-col {
-        text-align: left; 
-    }
+  .container-1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    .titulo-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
+  .info-col {
+    text-align: left;
+  }
+
+  .titulo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*Seccion Clientes*/
+@media (max-width: 768px) {
+  .slide {
+    width: 150px;
+  }
+  .slide-track {
+    width: calc(150px * 12);
+  }
+  @keyframes scroll {
+    100% {
+      transform: translateX(calc(-150px * 6));
     }
+  }
 }
