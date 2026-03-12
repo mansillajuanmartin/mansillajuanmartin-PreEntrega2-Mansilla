@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!--Pre Entrega 2: HTML+CSS+Bootstrap-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Juan Martin Mansilla" />
+    <title>Estudio Pierella</title>
+    <meta
+      name="description"
+      content="Somos el Estudio Contable de los que buscan más que un Estudio Contable."
+    />
+    <!--Favicon-->
+    <link rel="icon" type="image/jpeg" href="../assets/favicon/favicon.jpeg" />
+    <!--Fonts-->
+
+    <!--Icons-->
+    <script
+      src="https://kit.fontawesome.com/4db3f232fb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!--Css-->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <header class="header-1">
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../images/navbar/Logo1.png"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Estudio Pierella
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#servicios"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#impuestos">Impuestos</a></li>
+                  <li><a class="dropdown-item" href="#contabilidad">Contabilidad</a></li>
+                  <li><a class="dropdown-item" href="#gestiones">Gestiones</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#auditoria">Auditoría Operativa</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#finanzas">Finanzas</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#procedimientos"
+                      >Procedimientos de Crisis</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#recursos">Recursos Humanos</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#precios"
+                      >Precios de Transferencia</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#llc">LLC en Estados Unidos</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#sociedades">Sociedades en Uruguay</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#trabaja">Trabaja con Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="container-4">
+        <div class="home-content-2">
+          <h2>NUESTROS SERVICIOS</h2>
+        </div>
+      </section>
+    </header>
+
+    <!--Main-->
+    <main>
+    <!--Pages Servicios-->
+        <section class="container-fluid p-0">
+        <div class="row g-0" id="impuestos">
+            <div class="col-md-6 service-image" style="background-image: url('../images/servicios/impuestos.jpg');">
+                <div class="overlay"><h2>IMPUESTOS</h2><div class="line"></div></div>
+            </div>
+            <div class="col-md-6 service-text">
+                <ul class="list-plus">
+                    <li>I.V.A.</li>
+                    <li>Impuesto sobre los Ingresos Brutos.</li>
+                    <li>Impuesto a las Ganancias.</li>
+                    <li>Impuesto sobre los Bienes Personales.</li>
+                    <li>Sueldos y Cargas Sociales.</li>
+                    <li>Optimización de la situación fiscal.</li>
+                    <li>Soluciones en materia de planeamiento tributario.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row g-0" id="contabilidad">
+            <div class="col-md-6 service-text order-2 order-md-1">
+                <ul class="list-plus">
+                    <li>Procesamiento Contable.</li>
+                    <li>Cumplimientos formales.</li>
+                    <li>Auditoría de Estados Contables.</li>
+                </ul>
+            </div>
+            <div class="col-md-6 service-image order-1 order-md-2" style="background-image: url('../images/servicios/contabilidad.jpg');">
+                <div class="overlay"><h2>CONTABILIDAD</h2><div class="line"></div></div>
+            </div>
+        </div>
+
+        <div class="row g-0" id="gestiones">
+            <div class="col-md-6 service-image" style="background-image: url('../images/servicios/gestiones.jpg');">
+                <div class="overlay"><h2>GESTIONES</h2><div class="line"></div></div>
+            </div>
+            <div class="col-md-6 service-text">
+                <ul class="list-plus">
+                    <li>Regularización de deudas impositivas y previsionales.</li>
+                    <li>Reintegro por exportaciones.</li>
+                    <li>Inspecciones, minimización de los efectos y consideración de medidas preventivas.</li>
+                    <li>Asesoramiento y patrocinio en materia contencioso tributaria, tanto en la instancia administrativa como en la judicial.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row g-0" id="auditoria">
+            <div class="col-md-6 service-text order-2 order-md-1">
+                <ul class="list-plus">
+                    <li>Sistemas de control interno.</li>
+                    <li>Diseño de circuitos administrativos.</li>
+                    <li>Diseño de equipos de trabajo y un organigrama eficiente.</li>
+                    <li>Elaboración de manuales de procedimientos y cursogramas.</li>
+                </ul>
+            </div>
+            <div class="col-md-6 service-image order-1 order-md-2" style="background-image: url('../images/servicios/auditoria.jpg');">
+                <div class="overlay"><h2>AUDITORÍA OPERATIVA</h2><div class="line"></div></div>
+            </div>
+        </div>
+
+        <div class="row g-0" id="finanzas">
+            <div class="col-md-6 service-image" style="background-image: url('../images/servicios/finanzas.jpg');">
+                <div class="overlay"><h2>FINANZAS</h2><div class="line"></div></div>
+            </div>
+            <div class="col-md-6 service-text">
+                <ul class="list-plus">
+                    <li>Transferencias al exterior.</li>
+                    <li>Acciones Locales y Extranjeras.</li>
+                    <li>Títulos Públicos Soberanos, Sub-Soberanos y Corporativos.</li>
+                    <li>Renta Fija Local e Internacional.</li>
+                    <li>Cheques de Pago Diferido.</li>
+                    <li>Fideicomisos Financieros.</li>
+                    <li>Fondos Comunes de Inversión.</li>
+                    <li>Finanzas Corporativas a través del Mercado de Capitales y/o del Sistema Bancario.</li>
+                    <li>Leasing.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row g-0" id="procedimientos">
+            <div class="col-md-6 service-text order-2 order-md-1">
+                <ul class="list-plus">
+                    <li>Solución de conflictos societarios, económicos y financieros.</li>
+                    <li>Relevamiento de causas judiciales, análisis y proposición de soluciones alternativas.</li>
+                    <li>Reestructuración de pasivos y activos.</li>
+                    <li>Asistencia en reestructuración general de negocio.</li>
+                    
+                </ul>
+            </div>
+            <div class="col-md-6 service-image order-1 order-md-2" style="background-image: url('../images/servicios/crisis.jpg');">
+                <div class="overlay"><h2>PROCEDIMIENTO DE CRISIS</h2><div class="line"></div></div>
+            </div>
+        </div>
+
+        <div class="row g-0" id="recursos">
+            <div class="col-md-6 service-image" style="background-image: url('../images/servicios/humanos.jpg');">
+                <div class="overlay"><h2>RECURSOS HUMANOS</h2><div class="line"></div></div>
+            </div>
+            <div class="col-md-6 service-text">
+                <ul class="list-plus">
+                    <li>Evaluación del personal.</li>
+                    <li>Análisis de perfiles curriculares..</li>
+                    <li>Captación y capacitación de personal administrativo, táctico y operativo.</li>
+                    <li>Cursos y jornadas de capacitación.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row g-0" id="precios">
+            <div class="col-md-6 service-text order-2 order-md-1">
+                <ul class="list-plus">
+                    <li>Confección de declaraciones juradas.</li>
+                    <li>Asesoramiento en el desarrollo de políticas de precios de transferencia</li>
+                    <li>Gestión y coordinación a nivel regional y global.</li>
+                    <li>Valuación de intangibles.</li>
+                    <li>Defensa en sede administrativa ante auditorías fiscales y/o aduaneras.</li>
+                </ul>
+            </div>
+            <div class="col-md-6 service-image order-1 order-md-2" style="background-image: url('../images/servicios/precio.jpg');">
+                <div class="overlay"><h2>PRECIOS DE TRANSFERENCIA</h2><div class="line"></div></div>
+            </div>
+        </div>
+ 
+        <div class="row g-0" id="llc">
+            <div class="col-md-6 service-image" style="background-image: url('../images/servicios/eeuu.jpg');">
+                <div class="overlay"><h2>LLC EN ESTADOS UNIDOS</h2><div class="line"></div></div>
+            </div>
+            <div class="col-md-6 service-text">
+                <ul class="list-plus">
+                    <li>Constitución de Sociedades LLC en EE.UU.</li>
+                    <li>Asesoramiento jurídico y fiscal.</li>
+                    <li>Planificación patrimonial y financiera.</li>
+                    <li>Estructuras para exportar servicios.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row g-0" id="sociedades">
+            <div class="col-md-6 service-text order-2 order-md-1">
+                <ul class="list-plus">
+                    <li>Constitución de sociedades en Uruguay.</li>
+                    <li>Apertura de cuenta bancaria.</li>
+                    <li>Asesoramiento tributario.</li>
+                    <li>Planificación patrimonial.</li>
+                    <li>Residencias en Uruguay.</li>
+                </ul>
+            </div>
+            <div class="col-md-6 service-image order-1 order-md-2" style="background-image: url('../images/servicios/uruguay.jpg');">
+                <div class="overlay"><h2>SOCIEDADES EN URUGUAY</h2><div class="line"></div></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <div class="footer-section footer-logo">
+        <a href="#"
+          ><img src="../images/footer/logo2.jpeg" alt="logo-footer"
+        /></a>
+      </div>
+
+      <div class="footer-section footer-text">
+        <h3>
+          Somos el Estudio Contable de los que buscan más que un Estudio
+          Contable
+        </h3>
+      </div>
+
+      <div class="footer-section">
+        <h4>Seguinos:</h4>
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/jmartinmansilla/?hl=es-la"
+            class="fa fa-instagram"
+            target="
+              _blank"
+            rel="nooponer noreferrer"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/juan-martin-mansilla/"
+            class="fa fa-linkedin"
+            target="_blank"
+            rel="nooponer noreferrer"
+          ></a>
+          <a
+            href="https://github.com/mansillajuanmartin"
+            class="fa fa-github"
+            target="_blank"
+            rel="nooponer noreferrer"
+          ></a>
+        </div>
+      </div>
+      <small
+        >&copy; 2026 - <i>Estudio Pierella</i> - Todos los Derechos
+        Reservados</small
+      >
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
