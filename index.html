@@ -41,7 +41,7 @@
     -Seccion 5: Contacto
     -Footer: logo+descripcion+redes sociales
     -->
-    <!--Hader con logo+nav+titulo+descripcion - Se aplico Bootstrap-->
+    <!--Hader con logo+nav+titulo+descripcion-->
     <header>
       <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
@@ -131,19 +131,57 @@
       </nav>
       <section class="container">
         <div class="home-content">
-
-            <h1>BIENVENIDOS A ESTUDIO PIERELLA</h1>
-        <p>
-          Somos un estudio contable con más de 30 años de experiencia para hacer de su empresa un negocio eficiente.
-        </p></div>
+          <h1>BIENVENIDOS A ESTUDIO PIERELLA</h1>
+          <p>
+            Somos un estudio contable con más de 30 años de experiencia para
+            hacer de su empresa un negocio eficiente.
+          </p>
+        </div>
       </section>
-    
     </header>
 
     <!--Main-->
     <main>
       <!--Seccion Nosotros-->
-      <section>Nosotros</section>
+      <section class="nosotros-section">
+        <div class="container-1">
+          <div class="perfil-col">
+            <div class="foto-container">
+              <img
+                src="/images/nosotros/danielpierella.jpg"
+                alt="Daniel Pierella"
+              />
+            </div>
+            <div class="separador-corto"></div>
+            <p class="cargo-etiqueta">SOCIO – FUNDADOR</p>
+            <h3 class="nombre">Daniel Pierella</h3>
+            <p class="profesion">Contador Público</p>
+          </div>
+
+          <div class="info-col">
+            <div class="titulo-wrapper">
+              <h2 class="titulo-seccion">NOSOTROS</h2>
+              <div class="linea-azul"></div>
+            </div>
+            <p class="descripcion">
+              Estudio Pierella fue fundado en el año 1987, llegando a contar con
+              una amplia cartera de cuentas. Desde hace más de 30 años
+              trabajamos con el objetivo de estar a la altura de las
+              expectativas de nuestros clientes y un paso adelante de los
+              cambios en las exigencias.
+            </p>
+            <p class="descripcion">
+              Brindamos servicios a emprendedores, startups, pymes y empresas
+              con presencia internacional. Nuestro equipo está formado por
+              jóvenes profesionales en constante actualización para hacer de su
+              negocio una unidad eficiente. Creemos firmemente en el valor
+              diferencial que le podemos aportar a su empresa, contáctenos y le
+              contaremos de que se trata nuestra propuesta.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <!--Seccion Servicios-->
       <section>Servicios</section>
       <!--Seccion clientes - Se aplico Bootstrap-->
@@ -154,48 +192,47 @@
       <section>Contacto</section>
     </main>
 
-    <!--Footer - Se aplico Flex Box-->
+    <!--Footer-->
     <footer>
-        <div class="footer-section footer-logo">
-              <img src="./images/footer/logo2.jpeg" alt="logo-footer" />
-        </div>
+      <div class="footer-section footer-logo">
+        <img src="./images/footer/logo2.jpeg" alt="logo-footer" />
+      </div>
 
-        <div class="footer-section footer-text">
-          <h3>
-            Somos el Estudio Contable de los que buscan más que un Estudio
-            Contable
-          </h3>
-        </div>
+      <div class="footer-section footer-text">
+        <h3>
+          Somos el Estudio Contable de los que buscan más que un Estudio
+          Contable
+        </h3>
+      </div>
 
-        <div class="footer-section">
-          <h4>Seguinos:</h4>
-          <div class="social-icons">
-            <a
-              href="https://www.instagram.com/jmartinmansilla/?hl=es-la"
-              class="fa fa-instagram"
-              target="
+      <div class="footer-section">
+        <h4>Seguinos:</h4>
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/jmartinmansilla/?hl=es-la"
+            class="fa fa-instagram"
+            target="
               _blank"
-              rel="nooponer noreferrer"
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/juan-martin-mansilla/"
-              class="fa fa-linkedin"
-              target="_blank"
-              rel="nooponer noreferrer"
-            ></a>
-            <a
-              href="https://github.com/mansillajuanmartin"
-              class="fa fa-github"
-              target="_blank"
-              rel="nooponer noreferrer"
-            ></a>
-          </div>
+            rel="nooponer noreferrer"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/juan-martin-mansilla/"
+            class="fa fa-linkedin"
+            target="_blank"
+            rel="nooponer noreferrer"
+          ></a>
+          <a
+            href="https://github.com/mansillajuanmartin"
+            class="fa fa-github"
+            target="_blank"
+            rel="nooponer noreferrer"
+          ></a>
         </div>
-        <small
-          >&copy; 2026 - <i>Estudio Pierella</i> - Todos los Derechos
-          Reservados</small
-        >
-
+      </div>
+      <small
+        >&copy; 2026 - <i>Estudio Pierella</i> - Todos los Derechos
+        Reservados</small
+      >
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

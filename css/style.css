@@ -23,7 +23,7 @@ h1 {
 }
 
 header p {
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
   font-size: 2rem;
   padding: 1rem 1.5rem;
   text-align: center;
@@ -60,7 +60,7 @@ header p {
 }
 
 .navbar-nav .nav-link:hover {
-  color: #037171;
+  color: #5a9b71;
 }
 
 .dropdown-item:hover {
@@ -82,55 +82,143 @@ header p {
 
 /*home*/
 .home-content {
-    max-width: 500px;            /* Evita que el texto se extienda demasiado */
-    color: #002b24;              /* El color verde oscuro de tu marca */
+  max-width: 500px; /* Evita que el texto se extienda demasiado */
+  color: #002b24; /* El color verde oscuro de tu marca */
 }
 
 .home-content h1 {
-    font-size: 3.5rem;           /* Tamaño grande para el título */
-    font-weight: 800;
-    line-height: 1.1;
-    margin-bottom: 20px;
-    text-transform: uppercase;
+  font-size: 3.5rem; /* Tamaño grande para el título */
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .home-content p {
-    font-size: 1.2rem;
-    line-height: 1.5;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
-/*Clientes*/
+/*Seccion Nosotros*/
+
+.nosotros-section {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-1 {
+    max-width: 1100px;
+    display: flex;
+    align-items: flex-start;
+    gap: 60px; 
+}
+
+/* --- Seccion Nosotros - columna derecha ---*/
+.perfil-col {
+    flex: 1;
+    text-align: center;
+    max-width: 350px;
+}
+
+.foto-container img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.separador-corto {
+    width: 250px;
+    height: 1px;
+    background-color: #5a9b71; 
+    margin: 10px auto;
+}
+
+.cargo-etiqueta {
+    color: #5a9b71;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.nombre {
+    color: #03312e;
+    font-size: 1.8rem;
+    margin: 5px 0;
+    font-weight: 700;
+}
+
+.profesion {
+    color: #5a9b71;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+/* --- Seccion nosoros - Columna Derecha ---*/
+.info-col {
+    flex: 2;
+}
+
+.titulo-wrapper {
+    margin-bottom: 30px;
+}
+
+.titulo-seccion {
+    color: #03312e;
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.linea-azul {
+    width: 80px;
+    height: 4px;
+    background-color: #5a9b71;
+}
+
+.descripcion {
+    line-height: 1.6;
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #03312e;
+}
 
 
 /*Footer*/
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;           
-    padding: 20px 5%;              
-    background-color: #ffffff;      
-    flex-wrap: wrap;               
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #ffffff;
+  flex-wrap: wrap;
 }
 
 .footer-section {
-    flex: 1;                       
-    display: flex;
-    flex-direction: column;
-    align-items: center;         
-    text-align: center;            
-    min-width: 250px;            
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 250px;
 }
 
 .footer-logo img {
-    max-width: 150px;              
-    height: auto;
+  max-width: 150px;
+  height: auto;
 }
 
 .footer-text h3 {
-    font-size: 1.1rem;
-    color: #03312e;                
-    margin: 0;
-    font-weight: 500;
+  font-size: 1.1rem;
+  color: #03312e;
+  margin: 0;
+  font-weight: 500;
 }
 
 .footer-section h4 {
@@ -138,52 +226,51 @@ footer {
 }
 
 .social-icons {
-    display: flex;
-    gap: 15px;                     
-    justify-content: center;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
 }
 
 .social-icons a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-color: #03312e;     
-    border-radius: 8px;            
-    color: white;
-    text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #03312e;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
 }
 
 .social-icons a:hover {
-  color:#5a9b71;
+  color: #5a9b71;
 }
 
 small {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    color: #03312e;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: #03312e;
 }
-
 
 /*media queries*/
 
 /*home*/
 
-@media (max-width: 768px) {
-    .header {
-        background-position: 70% center; /* Ajusta la foto en móviles */
-        padding-left: 5%;
-    }
-    .home-content h1{
-        font-size: 2.5rem;
-    }
+@media (max-width: 800px) {
+  .header {
+    background-position: 70% center; /* Ajusta la foto en móviles */
+    padding-left: 5%;
+  }
+  .home-content h1 {
+    font-size: 2.5rem;
+  }
 }
 
 /*navbar*/
-@media (max-width: 992px) {
+@media (max-width: 800px) {
   .navbar-brand {
     font-size: 22px;
   }
@@ -195,6 +282,21 @@ small {
   }
 }
 
+/*Seccion Nosotros*/
+@media (max-width: 800px) {
+    .container-1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .info-col {
+        text-align: left; 
+    }
 
-
-
+    .titulo-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+}
