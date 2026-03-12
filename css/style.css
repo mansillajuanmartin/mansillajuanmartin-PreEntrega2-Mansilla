@@ -17,18 +17,6 @@ header {
   align-items: center;
 }
 
-h1 {
-  font-size: 5rem;
-  padding: 0.5rem 1.5rem;
-}
-
-header p {
-  font-family: "Crimson Text", serif;
-  font-size: 2rem;
-  padding: 1rem 1.5rem;
-  text-align: center;
-}
-
 /*navbar*/
 
 .navbar-custom {
@@ -95,7 +83,7 @@ header p {
 }
 
 .home-content p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
@@ -202,8 +190,8 @@ header p {
 
 .titulo-contenedor h2 {
   color: #03312e;
-  font-size: 1.8rem;
-  font-weight: bold;
+  font-size: 2.2rem;
+  font-weight: 700;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
@@ -263,6 +251,56 @@ header p {
     transform: translateX(calc(-250px * 6));
   }
 }
+
+/*Seccion oportunidad laboral*/
+
+.oportunidades-section {
+    padding: 60px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.container-2 {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.titulo {
+    color: #03312e; 
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+    letter-spacing: 1px;
+}
+
+.linea-verde-2 {
+    width: 100px;
+    height: 4px;
+    background-color: #5a9b71; /* Azul corporativo */
+    margin: 0 auto 35px auto;
+}
+
+.texto-informativo {
+    color: #03312e;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 500;
+}
+
+.email-link {
+    color: #5a9b71; /* Azul claro resaltado */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.email-link:hover {
+    color: #03312e;
+    text-decoration: underline;
+}
+
+
 
 /*Footer*/
 footer {
@@ -392,4 +430,19 @@ small i {
       transform: translateX(calc(-150px * 6));
     }
   }
+}
+
+/*Seccion Opotunidad laboral*/
+@media (max-width: 600px) {
+    .titulo {
+        font-size: 1.6rem;
+    }
+    
+    .texto-informativo {
+        font-size: 1rem;
+    }
+    
+    br {
+        display: none;
+    }
 }
